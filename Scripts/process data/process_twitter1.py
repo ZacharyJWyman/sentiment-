@@ -31,6 +31,7 @@ data = pd.concat([negative, neutral, positive], axis = 0)
 #clean up text
 text_clean = "@\S+|https?:\S+|http?:\S|[^A-Za-z0-9]+"
 
+#apply function 
 def clean_text(text, stem=False):
     text = re.sub(text_clean, ' ', str(text).lower()).strip()
     return text
