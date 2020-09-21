@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from process_twitter1 import clean_text
+from process_twitter1 import clean_text #import function 
 
 data = pd.read_csv(r'C:\Users\wyman\OneDrive\Desktop\sentiment_tw\2477_4140_compressed_training.1600000.processed.noemoticon.csv.zip',
                   encoding = 'latin', header = None)
