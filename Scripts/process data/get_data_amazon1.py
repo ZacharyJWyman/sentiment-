@@ -27,3 +27,4 @@ data = pd.read_csv(r'C:\Users\wyman\OneDrive\Desktop\Datasets\amazon.csv')
 data = data.sample(frac=0.05, replace = False, random_state = 42)
 data = data[['reviewText', 'overall']]
 data.to_csv(r'C:\Users\wyman\OneDrive\Desktop\Datasets\amazon.csv')
+#%%
