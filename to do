@@ -2,3 +2,8 @@ Model
 * Remove stop words
 * Stemming?
 * Most important words/remove rest for speed
+* joblib model dump
+
+Google Speech:
+* Integrate user speech to text
+* Feed text to model to base prediction
