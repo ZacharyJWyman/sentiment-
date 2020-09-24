@@ -1,8 +1,8 @@
 Model
 * Remove stop words
-* Stemming?
+* Stemming
 * Most important words/remove rest for speed
-* joblib model dump
+* Fine tune model 
 
 Google Speech:
 * Integrate user speech to text
