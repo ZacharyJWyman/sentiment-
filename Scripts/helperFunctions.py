@@ -14,8 +14,7 @@ def tokenize_text(text):
     return tokenizer
 
 def padding(text, tokenizer):
-    text = pad_sequences(tokenizer.texts_to_sequences(text), 
-                       maxlen = 500)
+    text = tokenizer.texts_to_sequences([text])[0]
     return text
 
 def apply_labels(label):
